@@ -43,6 +43,7 @@
 0.5	VP	VP PP
 1	VP	Verb NP
 1	VP	Verb_in
+0.5	VP	Verb and Verb NP
 0.5	VP	VP and VP
 0.2	NP	NP and NP
 0.1	NP	NP or NP
@@ -72,6 +73,7 @@
 1	Verb_cp	thought	
 
 1	Verb_in	sighed
+1	Verb_in	worked
 
 1	Det	the
 1	Det	a

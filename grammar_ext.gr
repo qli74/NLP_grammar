@@ -19,9 +19,13 @@
 
 # Rules for creating full sentences.
 
-1	ROOT	TP .
-0.2	ROOT	it perplexed NP CP .
-0.2	ROOT	I wonder WP
+1	ROOT	S .
+0.1	ROOT	S !
+0.1	ROOT	is it true that S ?     # mixing terminals and nonterminals is ok.
+
+1	S	TP
+0.2	S	it perplexed NP CP
+0.2	S	I wonder WP
 
 # The basic grammar rules.  Here's what the abbreviations stand for:
 #    S  = sentence
@@ -39,7 +43,10 @@
 0.2	TP	CP VP
 
 1	WP	where NP VP
-1	WP	what NP Verb PP
+1	WP	what NP VP
+1	WP	what NP Verb_cp
+1	WP	what TP Prep
+1	WP	what NP Verb_cp that NP Verb
 1	WP	who Verb NP
 
 1	CP	that TP
@@ -65,6 +72,7 @@
 
 1	NP_plu	NP and NP
 1	NP_plu	Noun_plu
+1	NP_plu	Det Noun_plu
 
 1	PP	Prep NP
 
