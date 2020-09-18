@@ -200,19 +200,20 @@ The probabilities of the next chosen rule at every position.
 
 They are equal because this sentence has only 1 way of parsing.
 
-p(best_parse, sentence)  =  p(sentence)  *  p(best_parse)  /  sum of p(ith_parse)
+&nbsp;&nbsp; p(best_parse, sentence)  =  p(sentence)  *  p(best_parse)  /  sum of p(ith_parse)
 
 This sentence has only 1 way of parsing, so 
 
-p(best_parse, sentence) = p(sentence)
+&nbsp;&nbsp; p(best_parse, sentence) = p(sentence)
 
-p(best_parse | sentence)  =  p(best_parse , sentence)  /  p(sentence)  =  1
+&nbsp;&nbsp; p(best_parse | sentence)  =  p(best_parse , sentence)  /  p(sentence)  =  1
 
 (b)
 
 0.5 is the probability of this derivation given this sentence. It means that this sentence has 2 ways of parsing.
 
 It is exactly 0.5 because the probability of two derivations are equal. As shown below, the differences of derivations are colored with red and blue. They have the same probabilities of rule **NP -> Det Noun** and **NP -> NP PP** at different positions, so their overall probabilities are exactly the same.
+
 ![probabilities of two derivations](pics/p2.png)
 
 (c) 
