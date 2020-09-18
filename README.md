@@ -34,3 +34,9 @@
    the pickle thought that Sally ate the sandwich .
    a pickled desk and a desk wanted that Sally sighed in every fine pickle .
    the sandwich kissed the pickled chief of staff .
+   
+#### 4.1
+1. I chose the fourth and the fifth phenomena to implement.
+The fourth phenomenon is to generate “I wonder” sentences with so-called embedded questions. Since “I wonder” sentences contain wh-word and following embedded questions, I create a phrase called wh-word phrase. 
+
+The fifth phenomenon is use singular and plural forms of verb to generate sentences. So, we set VerbT as verb with s (singular forms) and Verb_base as verb without s (plural forms).And NP_plu stands for noun phrase in plural forms, NP_sin stands for noun phrase in singular forms, VP_plu stands for verb phrase in plural forms and VP_sin stands for verb phrase in singular forms. 
