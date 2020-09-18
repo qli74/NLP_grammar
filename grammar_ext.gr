@@ -39,7 +39,7 @@
 0.2	TP	CP VP
 
 1	WP	where NP VP
-1	WP	what NP VP
+1	WP	what NP Verb PP
 1	WP	who Verb NP
 
 1	CP	that TP
