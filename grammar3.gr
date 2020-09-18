@@ -19,8 +19,10 @@
 
 # Rules for creating full sentences.
 
-1	ROOT	TP .
-0.2	ROOT	it perplexed NP CP .
+
+1	ROOT	S .
+0.1	ROOT	S !
+0.1	ROOT	is it true that S ?     # mixing terminals and nonterminals is ok.
 
 # The basic grammar rules.  Here's what the abbreviations stand for:
 #    S  = sentence
@@ -30,6 +32,9 @@
 #    Det = determiner (sometimes called "article")
 #    Prep = preposition
 #    Adj = adjective
+
+1	S	TP
+0.2	S	it perplexed NP CP
 
 1	TP	NP VP
 0.2	TP	CP VP
@@ -78,6 +83,7 @@
 1	Noun	chief of staff
 1	Noun	floor
 1	Noun	desk
+1	Noun	proposal
 
 1	Name	Sally
 
