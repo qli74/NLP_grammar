@@ -22,7 +22,6 @@
 1	ROOT	TP .
 0.2	ROOT	it perplexed NP CP .
 0.2	ROOT	I wonder WP
-0.5	ROOT	did NP VP_plu
 
 # The basic grammar rules.  Here's what the abbreviations stand for:
 #    S  = sentence
@@ -60,8 +59,6 @@
 0.5	NP	Name
 1	NP	Det Noun
 0.2	NP	NP PP
-0.2	NP	Det Noun that VP
-0.2	NP	Det Noun that NP Verb
 
 1	NP_sin	Det Noun
 1	NP_sin	Name
@@ -100,7 +97,6 @@
 # Verbs (base form).
 
 1	Verb_base	choose
-1	Verb_base	eat
 
 1	Det	the
 1	Det	a

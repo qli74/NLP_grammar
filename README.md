@@ -190,7 +190,7 @@ When using grammar.gr, the more consecutive rules **NP -> NP PP**
 
 When using grammar3.gr, the more rules **NP -> NP PP**, **PP -> Prep NP**, **Noun -> AdjP Noun**,**VP -> VP PP**,**VP -> VP and VP**
  a sentence has, the more different parses it has.
- 
+
 ### 3.3.5
 
 （a) 
@@ -288,3 +288,11 @@ The entropy of grammar2 on corpus2 is the lower. It is because for each sentence
 The fourth phenomenon is to generate “I wonder” sentences with so-called embedded questions. Since “I wonder” sentences contain wh-word and following embedded questions, I create a phrase called wh-word phrase. 
 
 The fifth phenomenon is use singular and plural forms of verb to generate sentences. So, we set VerbT as verb with s (singular forms) and Verb_base as verb without s (plural forms).And NP_plu stands for noun phrase in plural forms, NP_sin stands for noun phrase in singular forms, VP_plu stands for verb phrase in plural forms and VP_sin stands for verb phrase in singular forms. 
+
+## 5
+
+### 5.1
+
+Add rules for clauses to describe NP.
+
+Add rules for *do-*questions.
